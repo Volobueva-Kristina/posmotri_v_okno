@@ -186,9 +186,7 @@ ol {
   border-inline: 1px solid #fff;
 }
 
-
-.search-form__fieldset:has(:focus-visible)
-  .search-form__label:has(:focus-visible) {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
 }
@@ -215,9 +213,8 @@ ol {
 }
 
 .title {
-  max-height: 208px;
-  margin-block-end: 26px;
-  font-family: Oswald;
+  margin-block-end: 21px;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
@@ -279,7 +276,7 @@ ol {
   margin-block-end: 4px;
   padding-block-start: 2px;
   overflow: hidden;
-  font-family: Oswald;
+  font-family: Oswald, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
