@@ -186,6 +186,10 @@ ol {
   border-inline: 1px solid #fff;
 }
 
+.search-form__label:focus {
+  outline: none;
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
